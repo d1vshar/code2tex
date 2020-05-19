@@ -10,7 +10,7 @@ g++ code2tex.cpp -o code2tex
 ```
 
 ### Folder setup
-Make a file named `order.txt` and specifies the order of code to be included in the tex file. Each filename with extension on it's own line.
+Make a file named `order.txt` that specifies the order of code to be included in the tex file. Each filename with extension on it's own line.
 
 Example `order.txt`
 ```
