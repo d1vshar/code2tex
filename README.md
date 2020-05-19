@@ -23,6 +23,30 @@ Part1/Q2.cpp
 Part2/Q1.cpp
 ```
 
+### File setup
+
+The script extracts questions from the first multiline comment in your code.
+
+```cpp
+/*
+Write a program that says Hello World.
+*/
+#include <iostream>
+
+void sayHello();
+
+int main() {
+	sayHello();
+}
+
+/* Says Hello
+and this comment will not be in the question
+*/
+void sayHello() {
+	cout << "Hello world!";
+}
+```
+	
 ### Arguments:
 
 No arguments are optional and are to be entered in the same order.
